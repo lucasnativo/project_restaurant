@@ -1,0 +1,23 @@
+{
+  "name": "project_restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasnativo/project_restaurant.git"
+  },
+  "author": "Lucas 'Nativo' Sampaio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasnativo/project_restaurant/issues"
+  },
+  "homepage": "https://github.com/lucasnativo/project_restaurant#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}

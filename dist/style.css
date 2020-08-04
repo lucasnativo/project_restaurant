@@ -1,0 +1,176 @@
+#content {
+  display: flex;
+  justify-content: center;
+}
+
+#top-bar {
+  border-bottom: 1px solid black;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  background: white;
+  align-items: center;
+  width: 100%;
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  font-size: 30px;
+}
+
+#logo {
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+#bar-btns {
+  display: flex;
+  margin-right: 25px;
+  align-items: center;
+}
+
+#home {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+#menu {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+#about {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+#contact {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+#home:hover {
+  border-bottom: 2px solid black;
+}
+
+#menu:hover {
+  border-bottom: 2px solid black;
+}
+
+#about:hover {
+  border-bottom: 2px solid black;
+}
+
+#contact:hover {
+  border-bottom: 2px solid black;
+}
+
+#home-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  max-width: 1180px;
+  width: 100%;
+}
+
+#home-div {
+  width: 100%;
+  height: 75vh;
+  margin-top: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid black;
+}
+
+#homemenubtn {
+  padding: 5px;
+  border: 3px solid white;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#homemenubtn:hover {
+  transform: scale(1.1);
+}
+
+#menuimg {
+  border: 1px solid black;
+  width: 100%;
+  height: 250px;
+  margin-top: 88px;
+}
+
+#about-body {
+  max-width: 1180px;
+  width: 100%;
+  margin-top: 88px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#aboutimg {
+  border: 1px solid black;
+  height: 350px;
+  width: 100%;
+}
+
+#about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+#contact-body {
+  width: 100%;
+  max-width: 1180px;
+  margin-top: 88px;
+}
+
+#contactimg {
+  height: 350px;
+  border: 1px solid black;
+}
+
+#menugrid {
+  height: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 252px);
+  place-items: center;
+}
+
+#menu-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1180px;
+}
+
+.visual {
+  height: 100px;
+  width: 100%;
+  background: lightgray;
+}
+
+#card {
+  width: clamp(23ch, 50%, 46ch);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin-top: 32px;
+}
+
+#card h2 {
+  margin: 0;
+}
