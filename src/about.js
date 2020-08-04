@@ -4,7 +4,7 @@ let about = () => {
 
   let aboutimg = document.createElement("div");
   aboutimg.setAttribute("id", "aboutimg");
-  aboutimg.style.background = "url(../img/banner.jpeg) no-repeat";
+  aboutimg.style.background = "url(./img/banner.jpeg) no-repeat";
   aboutimg.style.backgroundSize = "cover";
   aboutimg.style.backgroundPosition = "center";
 

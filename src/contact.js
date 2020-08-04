@@ -4,7 +4,7 @@ let contact = () => {
 
   let contactimg = document.createElement("div");
   contactimg.setAttribute("id", "contactimg");
-  contactimg.style.background = "url(../img/roda.jpeg) no-repeat";
+  contactimg.style.background = "url(./img/roda.jpeg) no-repeat";
   contactimg.style.backgroundSize = "cover";
   contactimg.style.backgroundPosition = "center";
 
