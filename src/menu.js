@@ -7,9 +7,6 @@ let menu = () => {
 
   let menuimg = document.createElement("div");
   menuimg.setAttribute("id", "menuimg");
-  menuimg.style.background = "url(./img/coposegarrafas.jpeg) no-repeat";
-  menuimg.style.backgroundSize = "cover";
-  menuimg.style.backgroundPosition = "center";
   menubody.appendChild(menuimg);
 
   let menugrid = document.createElement("div");

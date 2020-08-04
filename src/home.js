@@ -19,12 +19,6 @@ let home = () => {
 
   homebody.appendChild(homediv);
 
-  // let div = document.querySelector("#home-div");
-  homediv.style.background =
-    "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #f3f3f3 url(./img/home.jpg) no-repeat fixed";
-  homediv.style.backgroundPosition = "center";
-  homediv.style.border = "1px solid black";
-
   return homebody;
 };
 
